@@ -1,0 +1,54 @@
+
+  /* Estilo para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #4e2470;
+    color: #333;
+  }
+  
+  /* Estilo para seções */
+  .section {
+    padding: 50px 0;
+  }
+  
+  .sobre-section,
+  .servicos-section,
+  .equipe-section,
+  .contato-section {
+    background-color: #fff;
+    text-align: center;
+  }
+
+ .dados{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btnEnviar{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4e2470;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btnEnviar:hover {
+    background-color: #2b034b;
+  }
+  
+    /* Estilo para o rodapé */
+    footer {
+      background-color: #4e2470;
+      color: #fff;
+      padding: 0px;
+    }
+
+    /* Estilos para os quadrados */
+.quadrados {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}

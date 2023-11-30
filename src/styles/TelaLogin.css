@@ -1,0 +1,58 @@
+.LoginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #4e2470, #000000);
+  height: 590px;
+  margin: 0;
+}
+
+
+.Form {
+  top: 110px;
+  justify-content: center;
+  position: relative;
+  width: 300px;  
+  margin: 0 auto; /* Para centralizar o formulário */
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.labelFolhaUp {
+  color: #ffff;
+  position: absolute;
+  top: 110px;
+  justify-content: center;
+  font-size: 70px; /* Tamanho da fonte */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /* Especifica a família da fonte */
+}
+
+.labelLogin {
+  color: #ffff;
+  position: absolute;
+  top: 290px; /* Para posicionar a imagem */
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.mensagem-erro {
+  color: #e74c3c;
+  text-align: center; /* Centraliza o texto */
+  margin-top: -200px; /* Espaçamento superior */
+  position: absolute;
+  bottom: 20px; /* Posiciona a mensagem abaixo do formulário */
+  width: 100%; /* Para ocupar toda a largura do formulário */
+}

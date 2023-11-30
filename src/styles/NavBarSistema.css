@@ -1,0 +1,31 @@
+.Navbar {
+  display: flex; /* Usa flexbox para alinhar os itens */
+  justify-content: flex-end; /* Alinha os botões à direita */
+  background-color: #4e2470;
+  height: 90px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.btnEnviar {
+  background-color: transparent; /* Fundo transparente */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #ffffff; /* Borda sólida de cor branca */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+
+.btnEnviar:not(:last-child) {
+  margin-right: 20px; /* Espaço entre os botões */
+}
+
+.btnEnviar:hover {
+  background-color: #ffffff;
+  color: #4e2470;
+}
+
+.Navbar .btnEnviar:first-child {
+  margin-left: auto; 
+}
